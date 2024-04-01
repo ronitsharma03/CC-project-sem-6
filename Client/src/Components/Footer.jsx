@@ -47,13 +47,13 @@ const Footer = () => {
         </div>
         <div className="footer__section">
           <h3>Contact</h3>
-          <p>Email: ajaydhakad.py@gmail.com</p>
+          <p>Email: snapstore@gmail.com</p>
           <p>Phone:91xxxxxxxx</p>
-          <p>Address: 123 Main Street, City, Country</p>
+          <p>Address: 123 Main Street, Pune, India</p>
         </div>
       </div> 
       <div className="footer__developers">
-        <p>Developed with <span role="img" aria-label="heart">❤️</span> by <Link to={'https://github.com/Ajay-Dhakad'} target="_blank" rel="noopener noreferrer">Ajay Dhakad</Link></p>
+        <p>Developed with <span role="img" aria-label="heart">❤️</span></p>
       </div>
       <div className="footer__copyright">
         &copy; {new Date().getFullYear()} SnapStore. All Rights Reserved.
