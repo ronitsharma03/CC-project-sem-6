@@ -43,7 +43,7 @@ app.use('/api/wishlist',wishlistRoutes)
 
 app.use('/api/createorder',checkoutRoutes)
 
-const Port = process.env.APP_PORT || 3000
+const Port = process.env.PORT || 3000
 
 Dbconnection().then(() => {
     app.listen(Port, () => {
